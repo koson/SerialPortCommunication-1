@@ -225,6 +225,7 @@
             this.cbParity.Name = "cbParity";
             this.cbParity.Size = new System.Drawing.Size(86, 21);
             this.cbParity.TabIndex = 12;
+            this.cbParity.SelectedIndexChanged += new System.EventHandler(this.cbParity_SelectedIndexChanged);
             // 
             // cbStopBits
             // 
@@ -361,7 +362,7 @@
             this.label9.TabIndex = 15;
             this.label9.Text = "Write Timeout";
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -392,7 +393,7 @@
             this.Controls.Add(this.txCommand);
             this.Controls.Add(this.btFlush);
             this.Controls.Add(this.txHistory);
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);

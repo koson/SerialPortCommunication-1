@@ -231,5 +231,10 @@ namespace WindowsFormsApplication1
             }
         }
 
+        private void cbParity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
